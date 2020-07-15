@@ -27,12 +27,18 @@
 </br><h4> <sup>1</sup>Queen Mary University of London, &ensp;&ensp;
 <sup>2</sup>Fondazione Bruno Kessler</h4> </p> 
 </br><h4>Preprint</h4>
+<p style="text-align:center">
+            <a href="https://arxiv.org/pdf/2007.02808.pdf">paper</a> | 
+            <a  href="https://arxiv.org/pdf/2007.02808.pdf">ArXiv</a> | 
+            <a  href="https://github.com/mlakhal/gtnet">code</a>
+            <a  href="https://mlakhal.github.io/">data</a>
+</p>
 </div> 
 
-<hr><div><img class="img-responsive center-block" alt="pipeline picture" src="data/architecture.png" style="width:100%"></div>
+<hr><div><img class="img-responsive center-block" alt="pipeline picture" src="images/architecture.png" style="width:100%"></div>
 
 <hr><div class="row-justify"> 
-<p>Novel-View Human Action Synthesis aims to synthesize the appearance of a dynamic scene from a virtual viewpoint, given a videofrom a real viewpoint. Our approach uses a novel 3D reasoning to synthesize the target viewpoint. We first estimate the 3D mesh of the target object, a human actor, and transfer the rough textures from the 2D images to the mesh. This transfer may generate sparse textures on the mesh due to frame resolution or occlusions. To solve this problem, we produce a semi-dense textured mesh by propagating the transferred textures both locally, within  local geodesic neighborhoods, and globally, across symmetric semantic parts. Next, we introduce a context-based generator to learn how to correct and complete the residual appearance information. This allows the network to independently focus of learning the foreground and background synthesis tasks.</p> 
+<p>Novel-View Human Action Synthesis aims to synthesize the appearance of a dynamic scene from a virtual viewpoint, given a video from a real viewpoint. Our approach uses a novel 3D reasoning to synthesize the target viewpoint. We first estimate the 3D mesh of the target object, a human actor, and transfer the rough textures from the 2D images to the mesh. This transfer may generate sparse textures on the mesh due to frame resolution or occlusions. To solve this problem, we produce a semi-dense textured mesh by propagating the transferred textures both locally, within  local geodesic neighborhoods, and globally, across symmetric semantic parts. Next, we introduce a context-based generator to learn how to correct and complete the residual appearance information. This allows the network to independently focus on learning the foreground and background synthesis tasks.</p> 
 </div> 
 <br> 
 
@@ -50,35 +56,18 @@
 <h3> Visualisations </h3> 
 <br> 
 <h4> Texture-transfer refinement</h4> 
-<div><img class="img-responsive center-block" alt="pipeline picture" src="data/res_tt.png" style="width:700%"></div>
+<div><img class="img-responsive center-block" alt="pipeline picture" src="images/res_tt.png" style="width:700%"></div>
 <br> 
 <h4> Model comparison </h4> 
-<div><img class="img-responsive center-block" alt="pipeline picture" src="data/res_comp.png" style="width:700%"></div>
+<div><img class="img-responsive center-block" alt="pipeline picture" src="images/res_comp.png" style="width:700%"></div>
 <br> 
 </div> 
-
-
-
-
-<div class="row"> 
-<h3> Paper </h3> 
-[<a href="https://arxiv.org/pdf/2007.02808.pdf" target="_blank">paper</a>]
-[<a href="https://arxiv.org/pdf/2007.02808.pdf" target="_blank">arxiv</a>]
-</div> 
-
-<div class="row"> 
-<h3> Code </h3> 
-[<a href="https://github.com/mlakhal/gtnet" target="_blank">Link</a>]
-</div> 
-
-
-
-
 
 
 
 <div class="row"> 
 <h3> Bibtex </h3> 
+<p>M. Lakhal, D. Boscaini, F. Poiesi, O. Lanz and A. Cavallaro, "Novel-View Human Action Synthesis," Arxiv, 2020</p>
 <pre xml:space="preserve">
 @InProceedings{Lakhal_2020_Arxiv,
 author={Mohamed Ilyes Lakhal and Davide Boscaini and Fabio Poiesi and Oswald Lanz and Andrea Cavallaro},
